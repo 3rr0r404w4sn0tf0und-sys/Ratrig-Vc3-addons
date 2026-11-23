@@ -24,3 +24,7 @@
 - Infill amount: (Insert value here)
 - Top and bottom solid infill: 4 Layers
 - Supports: Yes(Unless your printer ahs really and I mean REALLY good cooling)
+
+**Wiring:**
+<img width="1329" height="1072" alt="image" src="https://github.com/user-attachments/assets/9b53f28a-f1c5-40c9-9989-2994719a51f7" />
+<img width="1329" height="1072" alt="image" src="https://github.com/user-attachments/assets/da9cac2b-9cd2-450f-b858-f56b65e15bfc" />
