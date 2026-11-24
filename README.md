@@ -1,4 +1,4 @@
-#RATRIG VC3 ADDONS
+# RATRIG VC3 ADDONS
 
 ## **🧠 My Ideas**
 - Ratrig VC3 poop scraper, using a linear actuator to push/pull the poop
