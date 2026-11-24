@@ -20,10 +20,11 @@
 ---
 **🖨️ Printing instructions:**
 - Perimeters: 3 Walls
-- Infill type: (insert type here)
-- Infill amount: (Insert value here)
+- Material: ASA, ABS, or PA6 **AVOID ALL LOW TEMPERATURE FILAMENTS, THEY WILL MELT**
+- Infill type: GYROID(Or 3d honeycomb)
+- Infill amount: 40-50%
 - Top and bottom solid infill: 4 Layers
-- Supports: Yes(Unless your printer ahs really and I mean REALLY good cooling)
+- Supports: Yes(Unless your printer has really and I mean REALLY good cooling)
 
 **Wiring:**
 Stepper motor: (Assuming you have to manually wire; if it has a JST-GH or similar connector, just plug that in!)
