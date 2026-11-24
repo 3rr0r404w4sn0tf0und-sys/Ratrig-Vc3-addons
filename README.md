@@ -42,6 +42,7 @@ GND next to it(Not other GND, there are 2 of them, be careful) to the Negative o
 (Above pictured: Correct GND, Below pictured: Wrong GND)
 
 <img width="117" height="111" alt="image" src="https://github.com/user-attachments/assets/ee314361-6b05-45ba-9616-c33e71b0a908" />
+
 The OTHER GND conencts to any spare GND on the RPI
 VIO/VDD goes to the **3.3V** on the pi, not the 5V slot, on diagrams the 3.3v may be labeled **3V3**
 
