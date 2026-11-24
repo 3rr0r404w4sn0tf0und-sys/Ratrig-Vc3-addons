@@ -1,3 +1,5 @@
+#RATRIG VC3 ADDONS
+
 ## **🧠 My Ideas**
 - Ratrig VC3 poop scraper, using a linear actuator to push/pull the poop
 - Orbiter 2.5 spinnything(customizable) to show it is moving
@@ -8,7 +10,7 @@
 ### **💩 Poop Scraper:**
 1. Take measurements from the printer nozzle to the 3030 frame -  86mm   - 3.39 in -
 2. Measure from the aluminum plate to the 3030 frame                   - 72.64mm - 2.86 in -
-3. Find a linear actuator to fit this gap, preferred: 2.75 in when retracted, extend by at least 1 in.
+3. Find a linear actuator to fit this gap; preferred: 2.75 in when retracted, extend by at least 1 in.
 ---
 **💰 BOM:**
 ```
@@ -32,24 +34,24 @@ My CIRKIT link:
 
 [Wiring for scraper v1](https://app.cirkitdesigner.com/project/67648cf2-0054-428f-89f6-700b67266870)
 
-Stepper motor: (Assuming you have to manually wire; if it has a JST-GH or similar connector, just plug that in!)
+Stepper motor: (Assuming you have to wire it manually; if it has a JST-GH or similar connector, just plug that in!)
 1. A- to A1, A+ to A2
 2. B- to B1, B+ to B2
 
 TMC2209 and RPI:
 1. Step to any spare GPIO pin
 2. EN to any spare GPIO pin
-3. DIR to any spare gpio pin
+3. DIR to any spare GPIO pin
 4. Diag to any spare gpio pin
 5. VM/VS to 12V-24V output(any you have)
 6. GND next to it(Not other GND, there are 2 of them, be careful) to the Negative output of the SAME PSU
 <img width="117" height="111" alt="image" src="https://github.com/user-attachments/assets/da7dd7f5-8b74-4008-9b12-aa3f1c791b64" />
 
-(Above pictured: Correct GND, Below pictured: Wrong GND)
+(Above pictured: Correct GND; Below pictured: Wrong GND)
 
 <img width="117" height="111" alt="image" src="https://github.com/user-attachments/assets/ee314361-6b05-45ba-9616-c33e71b0a908" />
 
-1. The OTHER GND conencts to any spare GND on the RPI
+1. The OTHER GND connects to any spare GND on the RPI
 2. VIO/VDD goes to the **3.3V** on the pi, not the 5V slot, on diagrams the 3.3v may be labeled **3V3**
 
 **WARNING**
@@ -58,7 +60,7 @@ AVOID GPIO 0, 1, 2, 3, 7, 8, 9, 10, 11
 1. TX goes to GPIO 14 **REMEMBER TO USE A 1KOHM RESISTOR INCASE OF BURNOUT**
 2. RX goes to GPIO 15
 
-THESE ARE NOT INTERCAHNGABLE UNLESS YOU TWEAK A SETTIN IN THE PI TO ENABLE OTHER PINS TO DO UART
+THESE ARE NOT INTERCHANGEABLE UNLESS YOU TWEAK A SETTING IN THE PI TO ENABLE OTHER PINS TO DO UART
 
 ---
 
