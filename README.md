@@ -27,6 +27,9 @@
 - Supports: Yes(Unless your printer has really and I mean REALLY good cooling)
 
 **Wiring:**
+My CIRKIT link:
+[Wiring for scraper v1](https://app.cirkitdesigner.com/project/67648cf2-0054-428f-89f6-700b67266870)
+
 Stepper motor: (Assuming you have to manually wire; if it has a JST-GH or similar connector, just plug that in!)
 1. A- to A1, A+ to A2
 2. B- to B1, B+ to B2
