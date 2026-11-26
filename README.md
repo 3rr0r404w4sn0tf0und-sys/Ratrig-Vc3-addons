@@ -7,6 +7,7 @@
 - My own Raspberry Pi display mount for the printer that uses an ESP32's built-in GPIO sensing to be able to wake and sleep the screen and printer.
 ---
 Poop scraper: 
+
 [This .md](https://github.com/3rr0r404w4sn0tf0und-sys/Ratrig-Vc3-addons/blob/main/Poop%20scraper.md)
 
 
