@@ -8,7 +8,9 @@
 - [Breadboard](https://www.amazon.com/Solderless-Breadboard-Boards-Flexible-Jumper/dp/B0GVD11LSS)
 - [TMC2209](https://www.amazon.com/BIGTREETECH-TMC2209-Stepper-TMC2208-TMC2130/dp/B07ZPV4HFP)
 - [M3 screw assorted kit](https://www.amazon.com/Fgruh-750PCS-Assortment-Washers-Assorted/dp/B0FGV5FCBN)
-- Material cost: $38.36 USD($2 less with amazon prime membership)
+- [A3144](https://www.amazon.com/ALLECIN-Effect-AH3144E-Magnetic-Detector/dp/B0CZ6QXMZ2?)
+- [Magnet](https://www.amazon.com/Magnets-Powerful-Permanent-Multi-Use-Printing/dp/B0H55FXL9W?)
+- Material cost: $55.34 USD($2 less with amazon prime membership)
 
 **THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS, HIGH-TEMP FILAMENT E.G. ASA/ABS, AND CONNECTORS**
 
