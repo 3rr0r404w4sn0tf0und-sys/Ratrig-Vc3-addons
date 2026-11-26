@@ -12,13 +12,13 @@
 2. Measure from the aluminum plate to the 3030 frame                   - 72.64mm - 2.86 in -
 ---
 **💰 BOM:**
-```
+
 - (Stepper motor)[https://www.amazon.com/STEPPERONLINE-Stepper-Bipolar-42x42x38mm-Connector/dp/B0B38GX54H]
 - (Breadboard)[https://www.amazon.com/Solderless-Breadboard-Boards-Flexible-Jumper/dp/B0GVD11LSS]
 - (TMC2209)[https://www.amazon.com/BIGTREETECH-TMC2209-Stepper-TMC2208-TMC2130/dp/B07ZPV4HFP]
 - Material cost: $28.37 USD($2 less with amazon prime membership)
-```
-**THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS AND CONNECTORS**
+
+**THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS, HIGH-TEMP FILAMENT E.G. ASA/ABS, AND CONNECTORS**
 
 ---
 **🖨️ Printing instructions:**
