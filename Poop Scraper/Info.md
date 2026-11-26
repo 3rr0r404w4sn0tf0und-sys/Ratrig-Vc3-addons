@@ -10,7 +10,9 @@
 - [M3 screw assorted kit](https://www.amazon.com/Fgruh-750PCS-Assortment-Washers-Assorted/dp/B0FGV5FCBN)
 - [A3144](https://www.amazon.com/ALLECIN-Effect-AH3144E-Magnetic-Detector/dp/B0CZ6QXMZ2?)
 - [Magnet](https://www.amazon.com/Magnets-Powerful-Permanent-Multi-Use-Printing/dp/B0H55FXL9W?)
-- Material cost: $55.34 USD($2 less with amazon prime membership)
+- [Capacitors](https://www.amazon.com/ALLECIN-Electrolytic-Capacitor-0-24x0-47in-Capacitors/dp/B0CMQB1T9L?)
+- [Resistor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6?)
+- Material cost: $71.32 USD($2 less with amazon prime membership)
 
 **THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS, HIGH-TEMP FILAMENT E.G. ASA/ABS, AND CONNECTORS**
 
@@ -60,7 +62,7 @@ UART (single-wire)
 - GPIO 14 (TXD, pin 8) goes through a 1kΩ resistor to that same RX/PDN pin. The 1k resistor protects the pins from burnout.
 - The driver's TX pin stays unconnected.
 
-THESE ARE NOT INTERCHANGEABLE UNLESS YOU TWEAK A SETTING IN THE PI TO ENABLE OTHER PINS TO DO UART
+**THESE ARE NOT INTERCHANGEABLE UNLESS YOU TWEAK A SETTING IN THE PI TO ENABLE OTHER PINS TO DO UART**
 
 Hall sensor (A3144)
 
@@ -68,6 +70,16 @@ Hall sensor (A3144)
 - GND to the logic ground rail.
 - OUT to GPIO 23 (pin 16).
 - Put a 10kΩ pull-up resistor from OUT to 3.3V. NEVER pull it up to 5V, because that puts 5V into a 3.3V GPIO pin. (Alternatively, skip the resistor and enable the Pi's internal pull-up on GPIO 23 in code.)
+
+**⚠️ REMEMBER TO ENABLE UART ON THE PI** (unless you want the motor running on hopes and dreams!)
+
+1. Run `sudo raspi-config`
+2. Go to **Interface Options → Serial Port**
+3. "Would you like a login shell accessible over serial?" → **No**
+4. "Would you like the serial port hardware enabled?" → **Yes**
+5. Reboot (`sudo reboot`), because the Pi won't take the hint until you do
+
+If you skip this, the Pi will happily sit there talking to nobody while the TMC2209 stares back in silence.
 
 ---
 
