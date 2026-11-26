@@ -15,7 +15,7 @@
 - [Wiper(Optional)](https://qidi3d.com/products/plus4-wiper-silicone-case?from_collection=plus-4-accessories)
 - Material cost: $74.31 USD($2 less with amazon prime membership)
 
-**THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS, HIGH-TEMP FILAMENT E.G. ASA/ABS, AND CONNECTORS**
+**THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS, HIGH-TEMP FILAMENT E.G. ASA/ABS, THE RPI, SPARE M6 SCREWS, M6 T-NUTS, AND CONNECTORS**
 
 ---
 **🖨️ Printing instructions:**
