@@ -12,7 +12,8 @@
 - [Magnet](https://www.amazon.com/Magnets-Powerful-Permanent-Multi-Use-Printing/dp/B0H55FXL9W?)
 - [Capacitors](https://www.amazon.com/ALLECIN-Electrolytic-Capacitor-0-24x0-47in-Capacitors/dp/B0CMQB1T9L?)
 - [Resistor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6?)
-- Material cost: $71.32 USD($2 less with amazon prime membership)
+- [Wiper(Optional)](https://qidi3d.com/products/plus4-wiper-silicone-case?from_collection=plus-4-accessories)
+- Material cost: $74.31 USD($2 less with amazon prime membership)
 
 **THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS, HIGH-TEMP FILAMENT E.G. ASA/ABS, AND CONNECTORS**
 
