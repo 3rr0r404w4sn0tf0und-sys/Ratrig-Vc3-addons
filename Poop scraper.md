@@ -31,32 +31,44 @@ Stepper motor: (Assuming you have to wire it manually; if it has a JST-GH or sim
 1. A- to A1, A+ to A2
 2. B- to B1, B+ to B2
 
-TMC2209 and RPI:
-1. Step to any spare GPIO pin
-2. EN to any spare GPIO pin
-3. DIR to any spare GPIO pin
-4. Diag to any spare gpio pin
-5. VM/VS to 12V-24V output(any you have)
-6. GND next to it(Not other GND, there are 2 of them, be careful) to the Negative output of the SAME PSU
+TMC2209 and RPi
+
+- STEP to GPIO 20 (pin 38)
+- EN to GPIO 16 (pin 36)
+- DIR to GPIO 21 (pin 40)
+- DIAG isn't used in this build. If you want stall detection later, wire it to any spare GPIO.
+- VM/VS to the 12V rail (red).
+- The GND next to VM goes to the 12V rail's negative (blue). The two GND pins are different, so be careful.
+
 <img width="117" height="111" alt="image" src="https://github.com/user-attachments/assets/da7dd7f5-8b74-4008-9b12-aa3f1c791b64" />
 
 (Above pictured: Correct GND; Below pictured: Wrong GND)
 
 <img width="117" height="111" alt="image" src="https://github.com/user-attachments/assets/ee314361-6b05-45ba-9616-c33e71b0a908" />
 
-1. The OTHER GND connects to any spare GND on the RPI
-2. VIO/VDD goes to the **3.3V** on the pi, not the 5V slot, on diagrams the 3.3v may be labeled **3V3**
+- The OTHER GND goes to the logic ground rail, which is connected to the Pi's GND (pin 14).
+- VIO/VDD goes to the logic 3.3V rail, which is connected to the Pi's 3V3 (pin 1), not the 5V pin. On diagrams, 3.3V may be labeled 3V3.
 
 **WARNING**
 AVOID GPIO 0, 1, 2, 3, 7, 8, 9, 10, 11
 
-1. TX goes to GPIO 14 **REMEMBER TO USE A 1KOHM RESISTOR INCASE OF BURNOUT**
-2. RX goes to GPIO 15
+UART (single-wire)
+
+- GPIO 15 (RXD, pin 10) goes directly to the driver's RX/PDN pin.
+- GPIO 14 (TXD, pin 8) goes through a 1kΩ resistor to that same RX/PDN pin. The 1k resistor protects the pins from burnout.
+- The driver's TX pin stays unconnected.
 
 THESE ARE NOT INTERCHANGEABLE UNLESS YOU TWEAK A SETTING IN THE PI TO ENABLE OTHER PINS TO DO UART
 
+Hall sensor (A3144)
+
+- VCC to the Pi's 5V (pin 2). The sensor needs 4.5V or more.
+- GND to the logic ground rail.
+- OUT to GPIO 23 (pin 16).
+- Put a 10kΩ pull-up resistor from OUT to 3.3V. NEVER pull it up to 5V, because that puts 5V into a 3.3V GPIO pin. (Alternatively, skip the resistor and enable the Pi's internal pull-up on GPIO 23 in code.)
+
 ---
 
-<img width="762" height="616" alt="image" src="https://github.com/user-attachments/assets/3bef4b22-563c-4515-a773-2dd188ef95a8" />
-<img width="762" height="616" alt="image" src="https://github.com/user-attachments/assets/584f82a6-3916-4b38-824f-fc2eb2ada767" />
-<img width="762" height="616" alt="image" src="https://github.com/user-attachments/assets/05829e92-cbe2-4925-a104-25055156b4c4" />
+<img width="1723" height="1580" alt="image" src="https://github.com/user-attachments/assets/6983b028-f538-4012-b8e8-8b7c49fb7d11" />
+<img width="1723" height="1580" alt="image" src="https://github.com/user-attachments/assets/1a43c235-7e38-4709-8b01-1ee4f941ce57" />
+<img width="1723" height="1580" alt="image" src="https://github.com/user-attachments/assets/a65cc812-a1f7-4ac0-8150-2293e23128d9" />
