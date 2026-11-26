@@ -8,7 +8,7 @@
 ---
 Poop scraper: 
 
-[This .md](https://github.com/3rr0r404w4sn0tf0und-sys/Ratrig-Vc3-addons/blob/main/Poop%20scraper.md)
+[This .md](https://github.com/3rr0r404w4sn0tf0und-sys/Ratrig-Vc3-addons/blob/main/Poop%20Scraper/Info.md)
 
 ---
 ## 📜 Licensing
