@@ -8,17 +8,18 @@
 ---
 
 ### **💩 Poop Scraper:**
-1. Take measurements from the printer nozzle to the 3030 frame -  86mm   - 3.39 in -
+1. Take measurements from the printer nozzle to the 3030 frame         -  86mm   - 3.39 in -
 2. Measure from the aluminum plate to the 3030 frame                   - 72.64mm - 2.86 in -
-3. Find a linear actuator to fit this gap; preferred: 2.75 in when retracted, extend by at least 1 in.
 ---
 **💰 BOM:**
 ```
-- Linear actuator x1(insert link here)
-- ESP32 S3(insert link here)
-- Wiring(insert link here)
-- Material cost(insert value here)
+- (Stepper motor)[https://www.amazon.com/STEPPERONLINE-Stepper-Bipolar-42x42x38mm-Connector/dp/B0B38GX54H]
+- (Breadboard)[https://www.amazon.com/Solderless-Breadboard-Boards-Flexible-Jumper/dp/B0GVD11LSS]
+- (TMC2209)[https://www.amazon.com/BIGTREETECH-TMC2209-Stepper-TMC2208-TMC2130/dp/B07ZPV4HFP]
+- Material cost: $28.37 USD($2 less with amazon prime membership)
 ```
+**THE ABOVE IS ASSUMING YOU HAVE A SUITABLE PSU WITH THE RIGHT RING TERMINAL CRIMPS AND CONNECTORS**
+
 ---
 **🖨️ Printing instructions:**
 - Perimeters: 3 Walls
