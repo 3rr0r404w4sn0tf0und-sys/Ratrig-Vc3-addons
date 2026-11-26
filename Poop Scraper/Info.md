@@ -26,6 +26,9 @@
 - Top and bottom solid infill: 4 Layers
 - Supports: Yes(Unless your printer has really and I mean REALLY good cooling)
 
+My Printables link:
+[Printables](https://www.printables.com/model/1930826-ratrig-vc3-silicone-wiper-and-poop-scraper)
+
 **Wiring:**
 
 My CIRKIT link:
