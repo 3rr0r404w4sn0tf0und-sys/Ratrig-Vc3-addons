@@ -10,6 +10,16 @@ Poop scraper:
 
 [This .md](https://github.com/3rr0r404w4sn0tf0und-sys/Ratrig-Vc3-addons/blob/main/Poop%20scraper.md)
 
+---
+## 📜 Licensing
 
+* **Software & Configurations**: This repository's code, scripts, and flight configuration files are initially licensed under the **GNU Affero General Public License v3 (AGPLv3)**. 
+* **Hardware & Geometry**: *All physical CAD models, STEP files, and frame geometries are governed by the [CERN Open Hardware Licence v2 - Strongly Reciprocal (CERN-OHL-S-2.0)](./CAD/HARDWARE_LICENSE.md)*
+
+**The Copyleft Guarantee**: Anyone is legally allowed to modify, adapt, or build upon this architecture. However, any derivative modifications or improvements **must be published openly under these exact same terms**. If you optimize our layout, your improvements must legally remain free for the public—and us—to utilize.
+- 💻 **Software & Configurations:** Licensed under [GNU AGPLv3](LICENSE) — `SPDX-License-Identifier: AGPL-3.0-only`
+- 🔩 **Hardware & Geometry:** Licensed under [CERN-OHL-S-2.0](CAD/HARDWARE_LICENSE.md) — `SPDX-License-Identifier: CERN-OHL-S-2.0`
+
+---
 
 
