@@ -47,7 +47,9 @@ TMC2209 and RPi
 - DIAG isn't used in this build. If you want stall detection later, wire it to any spare GPIO.
 - VM/VS to the 12V rail (red).
 - The GND next to VM goes to the 12V rail's negative (blue). The two GND pins are different, so be careful.
+  
 <img width="865" height="297" alt="image" src="https://github.com/user-attachments/assets/bd69176b-89ed-4b84-a1dd-9200dd4f855a" />
+
 - Connect MS1 to the same 3.3v rail as VIO/VDD connection
 
 <img width="117" height="111" alt="image" src="https://github.com/user-attachments/assets/da7dd7f5-8b74-4008-9b12-aa3f1c791b64" />
@@ -55,6 +57,7 @@ TMC2209 and RPi
 (Above pictured: Correct GND; Below pictured: Wrong GND)
 
 <img width="117" height="111" alt="image" src="https://github.com/user-attachments/assets/ee314361-6b05-45ba-9616-c33e71b0a908" />
+
 
 - The OTHER GND goes to the logic ground rail, which is connected to the Pi's GND (pin 14).
 - VIO/VDD goes to the logic 3.3V rail, which is connected to the Pi's 3V3 (pin 1), not the 5V pin. On diagrams, 3.3V may be labeled 3V3.
