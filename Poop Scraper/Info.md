@@ -87,6 +87,14 @@ Hall sensor (A3144)
 
 If you skip this, the Pi will happily sit there talking to nobody while the TMC2209 stares back in silence.
 
+**CFG**
+1. Download the CFG from here: [CFG](https://github.com/3rr0r404w4sn0tf0und-sys/Ratrig-Vc3-addons/blob/main/Poop%20Scraper/Code/Stepper.cfg)
+2. Upload it to Printer Settings/Machine Settings
+3. In printer.cfg, add the line: [include scraper.cfg]
+ **IMPORTANT: ADD THIS LINE ABOVE THE DO NOT EDIT LINE**
+4. Test it, if it collides with bed, increase 30 to 40 and try until it is good!
+5. Video Tutorial soon!
+
 ---
 
 <img width="1723" height="1580" alt="image" src="https://github.com/user-attachments/assets/6983b028-f538-4012-b8e8-8b7c49fb7d11" />
