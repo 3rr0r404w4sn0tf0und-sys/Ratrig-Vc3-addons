@@ -27,7 +27,11 @@
 - Supports: Yes(Unless your printer has really and I mean REALLY good cooling)
 
 My Printables link:
+
 [Printables](https://www.printables.com/model/1930826-ratrig-vc3-silicone-wiper-and-poop-scraper)
+
+My Onshape link:
+[Onshape](https://cad.onshape.com/documents/3f06c51fcabee835c7c5e229/w/7cd7092967fedf511e5d034a/e/ae0a46cb397c7cf9686b8393)
 
 **Wiring:**
 
