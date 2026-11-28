@@ -101,6 +101,7 @@ If you skip this, the Pi will happily sit there talking to nobody while the TMC2
 1. Download the CFG from here: [CFG](https://github.com/3rr0r404w4sn0tf0und-sys/Ratrig-Vc3-addons/blob/main/Poop%20Scraper/Code/Stepper.cfg)
 2. Upload it to Printer Settings/Machine Settings
 3. In printer.cfg, add the line: [include scraper.cfg]
+
  **IMPORTANT: ADD THIS LINE ABOVE THE DO NOT EDIT LINE**
 4. SSH into the printer and follow documentation at [Klipper3d](https://www.klipper3d.org/RPi_microcontroller.html) to make your RPi a secondary microcontroller if you haven't already!
 5. Test it, if it collides with bed, increase 30 to 40 and try until it is good!
