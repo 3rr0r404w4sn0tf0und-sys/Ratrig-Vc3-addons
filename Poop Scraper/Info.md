@@ -32,7 +32,7 @@ My Printables link:
 
 My Onshape link:
 
-[Onshape](https://cad.onshape.com/documents/3f06c51fcabee835c7c5e229/w/7cd7092967fedf511e5d034a/e/ae0a46cb397c7cf9686b8393)
+[Onshape](https://cad.onshape.com/documents/3f06c51fcabee835c7c5e229/w/7cd7092967fedf511e5d034a/e/ae0a46cb397c7cf9686b8393?renderMode=0&uiState=6b0a30c0c89be7ce28bbddaa)
 
 ---
 
